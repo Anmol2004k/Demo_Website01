@@ -34,6 +34,35 @@ html,body{
     line-height: 8.5vw;
 
 }
+#page1 p{
+    text-align: center;
+    margin-top: 3vh;
+    font-weight: 200;
+}
+#page1-something{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+#page1-something h4{
+     text-transform: lowercase;
+     font-size: 1vw;
+     font-weight: 300;
+     padding: 12px 5px;
+     border: 2px solid #5a5a5a;
+     border-radius: 50px;
+ }
+#page1-something h4:nth-last-child(2){
+    border: none;
+    padding: 2px;
+
+
+
+}
 
 #page2{
     height: 100vh;
